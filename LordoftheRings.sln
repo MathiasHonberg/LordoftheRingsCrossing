@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LordoftheRings", "LordoftheRings\LordoftheRings.csproj", "{FC6C6E31-E468-4C79-B8DD-1E039BB54C9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LordoftheRingsTest", "LordoftheRingsTest\LordoftheRingsTest.csproj", "{192E7FA5-9E63-4EA2-98BE-5CEDE5D5CBDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC6C6E31-E468-4C79-B8DD-1E039BB54C9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC6C6E31-E468-4C79-B8DD-1E039BB54C9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC6C6E31-E468-4C79-B8DD-1E039BB54C9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC6C6E31-E468-4C79-B8DD-1E039BB54C9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{192E7FA5-9E63-4EA2-98BE-5CEDE5D5CBDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{192E7FA5-9E63-4EA2-98BE-5CEDE5D5CBDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{192E7FA5-9E63-4EA2-98BE-5CEDE5D5CBDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{192E7FA5-9E63-4EA2-98BE-5CEDE5D5CBDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
