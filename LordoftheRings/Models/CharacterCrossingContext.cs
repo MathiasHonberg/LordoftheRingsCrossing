@@ -13,5 +13,6 @@ namespace LordoftheRings.Models
 
         public DbSet<Character> Characters { get; set; }
         public DbSet<Race> Races { get; set; }
+        public DbSet<Hookup> Hookups { get; set; }
     }
 }

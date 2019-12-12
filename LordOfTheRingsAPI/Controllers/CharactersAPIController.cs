@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using LordOfTheRingsAPI.Models;
 using LordoftheRingsAPI.Models;
+using AutoMapper;
+using LordoftheRings.Models.ViewModels;
 
 namespace LordOfTheRingsAPI.Controllers
 {
@@ -15,17 +17,20 @@ namespace LordOfTheRingsAPI.Controllers
     public class CharactersAPIController : ControllerBase
     {
         private readonly CharacterApiContext _context;
+        private readonly IMapper _mapper;
 
-        public CharactersAPIController(CharacterApiContext context)
+        public CharactersAPIController(CharacterApiContext context, IMapper mapper)
         {
             _context = context;
+            _mapper = mapper;
         }
 
         // GET: api/CharactersAPI
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Character>>> GetCharacters()
+        public async Task<ActionResult<IEnumerable<CharacterVM>>> GetCharacters()
         {
-            return await _context.Characters.ToListAsync();
+            var characters = await _context.Characters.ToListAsync();
+            return _mapper.Map<List<Character>, List<CharacterVM>>(characters);
         }
 
         // GET: api/CharactersAPI/5

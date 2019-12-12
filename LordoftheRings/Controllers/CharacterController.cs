@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace LordoftheRings.Controllers
 {
-    [Authorize]
+    //[Authorize]
     public class CharacterController : Controller
     {
         private ICharacterRepository characterRepository;
@@ -22,7 +22,7 @@ namespace LordoftheRings.Controllers
 
 
         // GET: /<controller>/
-        [AllowAnonymous]
+        //[AllowAnonymous]
         public IActionResult Index(string searchString)
         {
             List<Character> cList = this.characterRepository.Get();

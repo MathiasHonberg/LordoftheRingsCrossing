@@ -54,9 +54,8 @@ namespace LordoftheRings.Models
 
             if (c != null)
             {
-                characters = characters
-                    .Include(chars => chars.RaceId)
-                    .Where(chars => chars.RaceId == c.RaceId && chars.Gender != c.Gender);
+                characters = characters.Include(chars => chars.races).Where(chars => chars.RaceId == c.RaceId && chars.Gender != c.Gender);
+
             }
 
             return characters.ToList();
