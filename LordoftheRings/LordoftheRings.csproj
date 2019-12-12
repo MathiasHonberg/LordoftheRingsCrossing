@@ -21,5 +21,6 @@
   <ItemGroup>
     <Folder Include="Models\ViewModels\" />
     <Folder Include="Views\Character\" />
+    <Folder Include="Views\Race\" />
   </ItemGroup>
 </Project>
