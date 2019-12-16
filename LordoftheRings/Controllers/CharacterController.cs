@@ -34,6 +34,7 @@ namespace LordoftheRings.Controllers
             }
 
             ViewBag.keepSearch = searchString;
+            
 
             return View("ShowCharacters", cList.ToList());
         }

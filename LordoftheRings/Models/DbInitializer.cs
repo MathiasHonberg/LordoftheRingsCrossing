@@ -42,10 +42,10 @@ namespace LordoftheRings.Models
 
                     var characters = new Character[]
                     {
-                        new Character{ Name="Liam", Description="Likes walks on the beach", Gender=Gender.Female, BirthDate= new DateTime(2000, 4, 3),  ProfilePicture="https://www.zooplus.dk/magasin/wp-content/uploads/2018/01/fotolia_138361424-768x658.jpg", RaceId= raceType[0].RaceId },
-                        new Character{ Name="Mathias", Description="Likes something ", Gender=Gender.Female, BirthDate= new DateTime(2004, 4, 3),  ProfilePicture="https://images2.minutemediacdn.com/image/upload/c_fill,g_auto,h_1248,w_2220/f_auto,q_auto,w_1100/v1555382975/shape/mentalfloss/sphinxhed.png", RaceId=raceType[1].RaceId },
-                        new Character{ Name="Simon", Description="Likes eeeeverythin", Gender=Gender.Male, BirthDate= new DateTime(1994, 8, 14),  ProfilePicture="https://images2.minutemediacdn.com/image/upload/c_fill,g_auto,h_1248,w_2220/f_auto,q_auto,w_1100/v1555382975/shape/mentalfloss/sphinxhed.png", RaceId=raceType[2].RaceId },
-                        new Character{ Name="Tobias", Description="Likes to study and give grades", Gender=Gender.Female, BirthDate= new DateTime(1980, 5, 10),  ProfilePicture="https://images2.minutemediacdn.com/image/upload/c_fill,g_auto,h_1248,w_2220/f_auto,q_auto,w_1100/v1555382975/shape/mentalfloss/sphinxhed.png", RaceId=raceType[3].RaceId },
+                        new Character{ Name="Liam", Description="Likes walks on the beach", Gender=Gender.Female, BirthDate= new DateTime(2000, 4, 3),  ProfilePicture="https://i.pinimg.com/originals/e1/1b/1f/e11b1fa725c28ca1c7ebcb16713d88e4.jpg", RaceId= raceType[0].RaceId },
+                        new Character{ Name="Mathias", Description="Likes something ", Gender=Gender.Female, BirthDate= new DateTime(2004, 4, 3),  ProfilePicture="https://i.pinimg.com/originals/e1/1b/1f/e11b1fa725c28ca1c7ebcb16713d88e4.jpg", RaceId=raceType[1].RaceId },
+                        new Character{ Name="Simon", Description="Likes eeeeverythin", Gender=Gender.Male, BirthDate= new DateTime(1994, 8, 14),  ProfilePicture="https://i.pinimg.com/originals/e1/1b/1f/e11b1fa725c28ca1c7ebcb16713d88e4.jpg", RaceId=raceType[2].RaceId },
+                        new Character{ Name="Tobias", Description="Likes to study and give grades", Gender=Gender.Female, BirthDate= new DateTime(1980, 5, 10),  ProfilePicture="https://i.pinimg.com/originals/e1/1b/1f/e11b1fa725c28ca1c7ebcb16713d88e4.jpg", RaceId=raceType[3].RaceId },
 
                     };
                     context.Characters.AddRange(characters);
