@@ -25,7 +25,6 @@ namespace LordoftheRings.Models
                         new Race { Name="Trolls", Description="Stupid and smelly human" },
                         new Race { Name="Wizard", Description="Smart humans" },
                         new Race { Name="Human", Description="Pure blood" },
-
                     };
 
                     context.Races.AddRange(races);
